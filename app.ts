@@ -4,11 +4,11 @@ import homeRouter from "./src/api/home/home.router";
 class App {
   public app: express.Application;
   constructor() {
-    this.app = express();    
+    this.app = express();
     this.router();
   }
 
-  private router():void {
+  private router(): void {
     this.app.use(homeRouter);
   }
 }

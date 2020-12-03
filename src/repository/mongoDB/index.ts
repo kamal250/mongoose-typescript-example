@@ -1,2 +1,2 @@
 // Export all necessary repositories
-export * from './session-token/session-token.repository';
+export * from "./session-token/session-token.repository";
